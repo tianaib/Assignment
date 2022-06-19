@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+}
+#body{
+    background-color: #fff;
+    
+    padding: 10px;
+}
+.card{
+    
+    height: 50vh;
+    width: 60%;
+    margin: 120px auto;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    background-color: hsl(233, 47%, 7%);
+    box-shadow: 5px -2px -2px 2px #fff;
+}
+.card2{
+    
+    height: 29vh;
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 5px 0 0 5px ;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    background-color: hsl(244, 38%, 16%);
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 0;
+    font-weight: 400,700;
+  
+}
+.card3{
+    
+    height: 40vh;
+    width: 40%;
+    margin-top: 40px;
+    background-image: url('./images/image-header-mobile.jpg');
+    background-size: 100%;
+   
+    border-radius: 0 5px 5px 0px;
+    background-repeat: no-repeat;
+}
+.price{
+    display: flex;
+    gap: 30px;
+
+}
+.price span{
+    font-size: .7rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.card2 h3{
+    font-size: 1.4rem;
+    margin-top: 0px;
+    letter-spacing: 3px;
+}
+.card2 .para{
+    font-size: .8rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+.card2 h3 span{
+    color: hsl(277, 64%, 61%);
+}
